@@ -1,0 +1,69 @@
+/*============================================
+         banner css part start here
+==============================================*/
+#banner_part{
+    width: 100%;
+    height: 425px;
+    background: url(../images/nins-bg-body.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .ban_main{
+        .ban_ovelay{
+            display: flex;
+            .col-lg-4{
+                .ban_text{
+                    padding: 75px 0;
+                    h3{
+                        font-size: 36px;
+                        font-family: 'Raleway', sans-serif;
+                        color: #215a6d;
+                        font-weight: 500;
+                    }
+                    h2{
+                        font-size: 36px;
+                        font-family: 'Raleway', sans-serif;
+                        font-style: italic;
+                        color: #215a6d;
+                        font-weight: 600;
+                    }
+                    p{
+                        font-size: 16px;
+                        font-family: 'Raleway', sans-serif;
+                        color: #215a6d;
+                        font-weight: 400;
+                        padding-top: 10px;
+                        line-height: 1.5rem;
+                    }
+                    a{
+                        font-size: 18px;
+                        font-family: 'Open Sans', sans-serif;
+                        color: #215a6d;
+                        font-weight: 400;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        background: #92c7a3;
+                        border: 1px solid #92c7a3;
+                        border-radius: 20px;
+                        padding: 15px 20px;
+                        margin-top: 15px;
+                    }
+                    a:hover{
+                        color: #92c7a3;
+                        background: #215a6d;
+                        transition: .5s;
+                    }
+                }
+            }
+            .col-lg-8{
+                text-align: right;
+                .ban_img{
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+}
+/*============================================
+         banner css part ends here
+==============================================*/

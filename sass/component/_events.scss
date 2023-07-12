@@ -1,0 +1,124 @@
+/*============================================
+        events css part start here
+==============================================*/
+#events_part{
+    width: 100%;
+    margin-top: 50px;
+    .events_main{
+        padding: 25px 0;
+        .row{
+            .col-lg-4{
+                .events_head{
+                    position: relative;
+                    h3{
+                        font-size: 35px;
+                        font-family: 'Open Sans', sans-serif;
+                        font-weight: 600;
+                        color: #215a6d;
+                        position: relative;
+                        text-transform: capitalize;
+                        &:after{
+                            position: absolute;
+                            content: "";
+                            background: #eaeaea;
+                            top: 45px;
+                            left: 0;
+                            height: 2px;
+                            width: 100%;
+                        }
+                    }
+                    &:before{
+                        position: absolute;
+                        content: "";
+                        background: #fa0202;
+                        top: 45px;
+                        left: 0;
+                        height: 2px;
+                        width: 0;
+                        z-index: 1;
+                        opacity: 0;
+                    }
+                    .events_text{
+                        padding-top: 40px;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid #eaeaea;
+                        p{
+                            margin-bottom: 0;
+                            font-size: 20px;
+                            font-family: 'Open Sans', sans-serif;
+                            color: #3ca2a2;
+                            font-weight: 600;
+                        }
+                        span{
+                            font-size: 15px;
+                            font-family: 'Open Sans', sans-serif;
+                            color: #215a6d;
+                            font-weight: 500;
+                            line-height: 1.5rem;
+                        }
+                    }
+                }
+                .events_service{
+                    padding-top: 30px;
+                    ul{
+                        padding-bottom: 22px;
+                        padding-left: 0;
+                        li{
+                            a{
+                                text-decoration: none;
+                                font-size: 18px;
+                                font-family: 'Open Sans', sans-serif;
+                                color: #215a6d;
+                                font-weight: 500;
+                                padding-bottom: 10px;
+                                i{
+                                    padding-right: 10px;
+                                    color: #bf0a11;
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+                .photo_frame{
+                    padding-top: 30px;
+                    .row{
+                        .col-lg-6{
+                            img{
+                                border: 8px solid #dfece6;
+                                width: 86%;
+                                height: 86%;
+                            }
+                        }
+                    }
+                }
+                .button{
+                    cursor: pointer;
+                    padding-top: 20px;
+                    a{
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        color: #bf0a11;
+                        text-transform: capitalize;
+                        text-decoration: none;
+                        i{
+                            padding-right: 15px;
+                        }
+                    }
+                }
+            }
+            .col-lg-4:hover{
+                .events_head{
+                    &:before{
+                        opacity: 1;
+                        width: 110px;
+                        transition: .5s;
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        events css part ends here
+==============================================*/

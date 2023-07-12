@@ -1,0 +1,102 @@
+/*============================================
+        doctors css part start here
+==============================================*/
+#doctors_parts{
+    width: 100%;
+    margin-top: 50px;
+    .doctors_main{
+        .doc_head{
+            position: relative;
+            h3{
+                font-size: 35px;
+                font-family: 'Open Sans', sans-serif;
+                font-weight: 600;
+                color: #215a6d;
+                position: relative;
+                text-transform: capitalize;
+                &:after{
+                    position: absolute;
+                    content: "";
+                    background: #eaeaea;
+                    top: 45px;
+                    left: 0;
+                    height: 2px;
+                    width: 100%;
+                }
+            }
+            &:before{
+                position: absolute;
+                content: "";
+                background: #fa0202;
+                top: 45px;
+                left: 0;
+                height: 2px;
+                width: 0;
+                z-index: 1;
+                opacity: 0;
+            }
+        }
+        .doc_card{
+            margin-top: 35px;
+            margin-bottom: 100px;
+            cursor: pointer;
+            .doc_card_main{
+                .row{
+                    .col-lg-4{
+                        .card_body{
+                            .card_img{
+                                img{
+                                    border: 8px solid #dfece6;
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                            .card_text{
+                                padding: 10px 10px;
+                                h3{
+                                    color: #3ca2a2;
+                                    font-size: 18px;
+                                    font-family: 'Open Sans', sans-serif;
+                                    font-weight: 600;
+                                    text-transform: capitalize;
+                                    margin-bottom: 0;
+                                }
+                                p{
+                                    color: #878787;
+                                    font-size: 12px;
+                                    font-family: 'Open Sans', sans-serif;
+                                    font-weight: 600;
+                                    text-transform: capitalize;
+                                    margin-bottom: 0;
+                                }
+                                span{
+                                    color: #cf0511;
+                                    font-size: 12px;
+                                    font-family: 'Open Sans', sans-serif;
+                                    font-weight: 600;
+                                    text-transform: capitalize;
+                                }
+                            }
+                        }
+                        .card_body:hover{
+                            box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .doctors_main:hover{
+        .doc_head{
+            &:before{
+                opacity: 1;
+                width: 110px;
+                transition: .5s;
+            }
+        }
+    }
+}
+/*============================================
+        doctors css part ends here
+==============================================*/

@@ -1,0 +1,73 @@
+/*============================================
+        footer css part start here
+==============================================*/
+#footer_part{
+    background: #222222;
+    width: 100%;
+    .footer_main{
+        padding: 50px 0;
+        .footer_head{
+            // display: inline-block;
+            .row{
+                .col-lg-1{
+                    .footer_img{
+                        img{
+                            height: 100%;
+                            width: 100%;
+                        }
+                    }
+                }
+                .col-lg-11{
+                    .footer_text{
+                        h3{
+                            color: #3ca2a2;
+                            padding-top: 25px;
+                            font-weight: 600;
+                            font-size: 35px;
+                            font-family: 'Open Sans', sans-serif;
+                        }
+                    }
+                }
+            }
+        }
+        .footer_body{
+            padding-top: 50px;
+            .row{
+                .col-lg-3{
+                    .foot_body_head{
+                        h3{
+                            color: #3ca2a2;
+                            font-weight: 600;
+                            font-size: 18px;
+                            font-family: 'Open Sans', sans-serif;
+                            text-transform: capitalize;
+                            padding-bottom: 10px;
+                        }
+                        .foot_body_item{
+                            ul{
+                                padding-left: 0;
+                                li{
+                                    a{
+                                        text-decoration: none;
+                                        color: #fff;
+                                        text-transform: capitalize;
+                                        font-size: 15px;
+                                        font-weight: 500;
+                                        font-family: 'Open Sans', sans-serif;
+                                        i{
+                                            padding-right: 10px;
+                                            color: #cf0511;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        footer css part ends here
+==============================================*/

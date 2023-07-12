@@ -1,0 +1,59 @@
+/*============================================
+        navbar css part start here
+==============================================*/
+#navbar_part{
+    width: 100%;
+    background-color: #c90711;
+    .nav_main{
+        display: flex;
+        height: 60px;
+        .col-lg-10{
+            ul{
+                padding-left: 0;
+                li{
+                    display: inline-block;
+                    a{
+                        padding: 16px 20px 17px 20px;
+                        color: #fff;
+                        text-decoration: none;
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 18px;
+                        text-transform: capitalize;
+                    }
+                    a:hover{
+                        background: #f18d26;
+                        transition: .5s;
+                    }
+                }
+            }
+        }
+        .col-lg-2{
+            text-align: right;
+            ul{
+                li{
+                    display: inline-block;
+                    padding-top: 10px;
+                    cursor: pointer;
+                    a{
+                        background: #fff;
+                        border: 1px solid #fff;
+                        border-radius: 100%;
+                        padding: 5px 8px 5px 10px;
+                        color: #c90711;
+                    }
+                    a:hover{
+                        background: #f18d26;
+                        border: 1px solid #f18d26;
+                        transition: .5s;
+                        i{
+                            color: #3ca2a2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+        navbar css part ends here
+==============================================*/

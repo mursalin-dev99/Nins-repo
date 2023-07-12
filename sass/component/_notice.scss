@@ -1,0 +1,131 @@
+/*============================================
+         css part start here
+==============================================*/
+#notice_part{
+    width: 100%;
+    // height: 390px;
+    margin-top: 50px;
+    background: #dfece6;
+    .notice_body{
+        .notice_main{
+            padding: 25px 0;
+            .row{
+                .col-lg-6{
+                    .notice_head{
+                        position: relative;
+                        h3{
+                            font-size: 35px;
+                            font-family: 'Open Sans', sans-serif;
+                            font-weight: 600;
+                            color: #215a6d;
+                            position: relative;
+                            &:after{
+                                position: absolute;
+                                content: "";
+                                background: #fff;
+                                top: 45px;
+                                left: 0;
+                                height: 2px;
+                                width: 100%;
+                            }
+                        }
+                        &:before{
+                            position: absolute;
+                            content: "";
+                            background: #fa0202;
+                            top: 45px;
+                            left: 0;
+                            height: 2px;
+                            width: 0;
+                            z-index: 1;
+                            opacity: 0;
+                        }
+                    }
+                    .notice_item{
+                        padding-top: 30px;
+                        ul{
+                            padding-left: 0;
+                            margin-bottom: 0;
+                            li{
+                                padding: 0;
+                                margin: 0;
+                                .row{
+                                    margin: 0;
+                                    border-bottom: 2px solid #49a8a8;
+                                    .col-lg-11{
+                                        background: #fff;
+                                        padding: 14px 0;
+                                        .item1{
+                                            a{
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                font-family: 'Open Sans', sans-serif;
+                                                text-decoration: none;
+                                                color: #49a8a8;
+                                                padding-left: 16px;
+                                            }
+                                        }
+                                    }
+                                    .col-lg-1{
+                                        background: #bf0a11;
+                                        padding: 14px 0;
+                                        .item2{
+                                            a{
+                                                font-size: 18px;
+                                                font-weight: 500;
+                                                font-family: 'Open Sans', sans-serif;
+                                                text-decoration: none;
+                                                color: #fff;
+                                                padding-left: 20px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .button{
+                        cursor: pointer;
+                        padding-top: 20px;
+                        .btn{
+                            a{
+                                font-family: 'Open Sans', sans-serif;
+                                font-size: 18px;
+                                color: #bf0a11;
+                                text-transform: capitalize;
+                                text-decoration: none;
+                                i{
+                                    padding-right: 15px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .col-lg-6:hover{
+                    .notice_head{
+                        &:before{
+                            opacity: 1;
+                            width: 110px;
+                            transition: .5s;
+                        }
+                    }
+                }
+                .col-lg-6{
+                    .features_item{
+                        padding-top: 30px;
+                        a{
+                            height: 100%;
+                            width: 100%;
+                            img{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/*============================================
+         css part ends here
+==============================================*/
